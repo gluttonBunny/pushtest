@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export const request = (config) => {
   const instance = axios.create({
-    baseURL: 'http://123.207.32.32:8000/api/h8',
+    baseURL: 'http://123.102.23.23:8000/',
     timeout: 5000
   })
 
